@@ -1,0 +1,80 @@
+{% extends 'layout.html' %}
+
+{% block css %}{% endblock %}
+
+{% block body %}
+
+<div class="container mt-5">
+    <p class="display-4 text-center">Indian Startups Data Analysis</p>
+    <hr>
+    <div class="row justify-content-center">
+        <div class="card col-md-10">
+            <div class="card-body">
+                {% include 'plot01.html' %}
+            </div>
+        </div>
+    
+        <div class="card col-md-10">
+            <div class="card-body">
+                {% include 'plot02.html' %}
+            </div>
+        </div>
+    
+        <div class="card col-md-10">
+            <div class="card-body">
+                {% include 'plot03.html' %}
+            </div>
+        </div>
+    
+        <div class="card col-md-10">
+            <div class="card-body">
+                {% include 'plot04.html' %}
+            </div>
+        </div>
+    
+        <div class="card col-md-10">
+            <div class="card-body">
+                {% include 'plot05.html' %}
+            </div>
+        </div>
+    
+        <div class="card col-md-10">
+            <div class="card-body">
+                {% include 'plot06.html' %}
+            </div>
+        </div>
+    
+        <div class="card col-md-10">
+            <div class="card-body">
+                {% include 'plot07.html' %}
+            </div>
+        </div>
+    
+        <div class="card col-md-10">
+            <div class="card-body">
+                {% include 'plot08.html' %}
+            </div>
+        </div>
+    
+        <div class="card col-md-10">
+            <div class="card-body">
+                {% include 'plot09.html' %}
+            </div>
+        </div>
+    
+        <div class="card col-md-10">
+            <div class="card-body">
+                {% include 'plot10.html' %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+{% block js %}
+<script>
+    $(document).ready(() => {
+
+    });
+</script>
+{% endblock %}
